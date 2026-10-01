@@ -13,9 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $makanan = Category::create(['name' => 'Makanan Utama', 'description' => 'Menu aneka ikan dan seafood']);
-        $minuman = Category::create(['name' => 'Minuman', 'description' => 'Aneka minuman dingin dan panas']);
-        $snack = Category::create(['name' => 'Camilan', 'description' => 'Menu pelengkap dan camilan']);
+        $makanan = Category::firstOrCreate(['name' => 'Makanan Utama'], ['description' => 'Menu aneka ikan dan seafood']);
+        $minuman = Category::firstOrCreate(['name' => 'Minuman'], ['description' => 'Aneka minuman dingin dan panas']);
+        $snack = Category::firstOrCreate(['name' => 'Camilan'], ['description' => 'Menu pelengkap dan camilan']);
 
         $products = [
             ['category_id' => $makanan->id, 'name' => 'Ikan Bakar Rica', 'price' => 45000, 'description' => 'Ikan bakar dengan sambal rica pedas'],
@@ -33,8 +33,22 @@ class DatabaseSeeder extends Seeder
             ['category_id' => $snack->id, 'name' => 'Otak-otak Bakar', 'price' => 20000, 'description' => 'Otak-otak ikan bakar isi 5'],
         ];
 
+        // Create Admin and Pelanggan
+        \App\Models\User::firstOrCreate(
+            ['email' => 'admin@admin.com'],
+            ['name' => 'Admin', 'password' => bcrypt('admin')]
+        );
+        
+        \App\Models\User::firstOrCreate(
+            ['email' => 'pelanggan@pelanggan.com'],
+            ['name' => 'Pelanggan', 'password' => bcrypt('pelanggan')]
+        );
+
         foreach ($products as $product) {
-            Product::create($product);
+            Product::firstOrCreate(
+                ['name' => $product['name']],
+                $product
+            );
         }
     }
 }

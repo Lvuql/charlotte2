@@ -4,14 +4,14 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-6 banner-content pe-5" data-aos="fade-right" data-aos-delay="3000">
-                    <h1 class="display-2">Enjoy Our <br> Delicious Meal</h1>
+                    <h1 class="display-2">Sajian Laut <br> & Ikan Bakar Segar</h1>
                     <p>
                         Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
                         ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                     </p>
                     <div class="book-a-table">
                         <div class="anim-layer"></div>
-                        <a href="#">Book a table</a>
+                        <a href="#">Pesan Meja</a>
                     </div>
                 </div>
                 <div class="col-md-6 banner-img" data-aos="fade-left" data-aos-delay="3000">
@@ -32,7 +32,7 @@
                             <i class="fa fa-3x fa-user-tie mb-4"></i>
                         </div>
                         <div class="heading">
-                            <h5>Master Chefs</h5>
+                            <h5>Andalan</h5>
                         </div>
                         <div class="para">
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -43,7 +43,7 @@
                     <div class="cards px-4 py-5" data-aos="fade-down">
                         <div class="anim-layer"></div>
                         <div class="icon">
-                            <i class="fa fa-3x fa-utensils mb-4"></i>
+                            <i class="fa fa-3x fa-water mb-4"></i>
                         </div>
                         <div class="heading">
                             <h5>Quality Food</h5>
@@ -60,7 +60,7 @@
                             <i class="fa fa-3x fa-cart-plus mb-4"></i>
                         </div>
                         <div class="heading">
-                            <h5>Online Order</h5>
+                            <h5>Online Pesan</h5>
                         </div>
                         <div class="para">
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
@@ -106,34 +106,32 @@
                 </div>
                 <div class="col-lg-6 about-content" data-aos="fade-left">
                     <h5 class="section-title">About Us</h5>
-                    <h2 class="mb-4 dis">Welcome to <i class="fa fa-utensils  me-2"></i>Restoran</h2>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h2 class="mb-4 dis">Selamat Datang di <i class="fa fa-water me-2 text-primary"></i>Ikan Karang</h2>
+                    <p class="mb-4">Rumah Makan Ikan Karang telah menjadi pilihan utama keluarga untuk menikmati hidangan laut segar dengan kualitas terbaik.</p>
+                    <p class="mb-4">Rasakan sensasi hidangan laut segar khas nusantara dengan bumbu rempah pilihan, ditangkap langsung oleh nelayan lokal setiap harinya.</p>
                     <div class="row g-4 mb-4 about-extra">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center px-3 about-experience">
-                                <h1 class="flex-shrink-0  mb-0">15</h1>
+                                <h1 class="flex-shrink-0  mb-0">10</h1>
                                 <div class="ps-4">
-                                    <p class="mb-0">Years of</p>
-                                    <h6 class="text-uppercase mb-0">Experience</h6>
+                                    <p class="mb-0">Tahun</p>
+                                    <h6 class="text-uppercase mb-0">Pengalaman</h6>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center px-3 about-popular">
-                                <h1 class="flex-shrink-0  mb-0">50</h1>
+                                <h1 class="flex-shrink-0  mb-0">25</h1>
                                 <div class="ps-4">
-                                    <p class="mb-0">Popular</p>
-                                    <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                    <p class="mb-0">Koki</p>
+                                    <h6 class="text-uppercase mb-0">Andalan</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="book-a-table">
                         <div class="anim-layer"></div>
-                        <a href="#">Read More</a>
+                        <a href="#">Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -144,59 +142,59 @@
         <div class="container">
             <div class="row" data-aos="fade-right">
                 <div class="section-title text-center">
-                    <h5>Our Menu</h5>
-                    <h2 class="display-5 fw-bold">Tasty And Good Price</h2>
+                    <h5>Menu Spesial</h5>
+                    <h2 class="display-5 fw-bold">Harga Terjangkau & Rasa Lezat</h2>
                 </div>
             </div>
             <div class="row  position-relative">
                 <div data-aos="fade-left" class="slider slider-indicators-wrapper justify-content-center">
                     <div class="slider-indicators">
                         <div class="indicators-icon active text-center">
-                            <i class="fas fa-coffee fa-2x"></i>
+                            <i class="fas fa-fish fa-2x"></i>
                         </div>
                         <div class="indicators-title text-center">
                             <h5>
-                                Breakfast
+                                Ikan Bakar
                             </h5>
                         </div>
                     </div>
                     <div class="slider-indicators">
                         <div class="indicators-icon text-center">
-                            <i class="fas fa-utensils fa-2x"></i>
+                            <i class="fas fa-water fa-2x"></i>
                         </div>
                         <div class="indicators-title text-center">
                             <h5>
-                                Lunch
+                                Seafood
                             </h5>
                         </div>
                     </div>
                     <div class="slider-indicators">
                         <div class="indicators-icon text-center">
-                            <i class="fas fa-hamburger fa-2x"></i>
+                            <i class="fas fa-anchor fa-2x"></i>
                         </div>
                         <div class="indicators-title text-center">
                             <h5>
-                                Dinner
+                                Kepiting & Udang
                             </h5>
                         </div>
                     </div>
                     <div class="slider-indicators">
                         <div class="indicators-icon text-center">
-                            <i class="fas fa-ice-cream fa-2x"></i>
+                            <i class="fas fa-leaf fa-2x"></i>
                         </div>
                         <div class="indicators-title text-center">
                             <h5>
-                                Desserts
+                                Camilan
                             </h5>
                         </div>
                     </div>
                     <div class="slider-indicators">
                         <div class="indicators-icon text-center">
-                            <i class="fas fa-cocktail fa-2x"></i>
+                            <i class="fas fa-glass-cheers fa-2x"></i>
                         </div>
                         <div class="indicators-title text-center">
                             <h5>
-                                Drink
+                                Minuman
                             </h5>
                         </div>
                     </div>
@@ -214,71 +212,71 @@
                         <div class="col-lg-7">
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>The Cracker Barrel's Country Boy Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         25.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Uncle Herschel's Favorite</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kepiting Saus Padang Extra Pedas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         45.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Grandpa's Country Fried Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Grandpa's Country Fried Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         30.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Old Timer's Meat Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Old Timer's Meat Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Chinese Chicken Bread Spicy Soup</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kerang Dara Rebus Bumbu Nanas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
@@ -296,71 +294,71 @@
                         <div class="col-lg-7">
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>The Cracker Barrel's Country Boy Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         25.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Uncle Herschel's Favorite</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kepiting Saus Padang Extra Pedas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         45.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Grandpa's Country Fried Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Grandpa's Country Fried Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         30.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Old Timer's Meat Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Old Timer's Meat Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Chinese Chicken Bread Spicy Soup</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kerang Dara Rebus Bumbu Nanas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
@@ -378,71 +376,71 @@
                         <div class="col-lg-7">
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>The Cracker Barrel's Country Boy Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         25.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Uncle Herschel's Favorite</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kepiting Saus Padang Extra Pedas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         45.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Grandpa's Country Fried Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Grandpa's Country Fried Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         30.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Old Timer's Meat Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Old Timer's Meat Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Chinese Chicken Bread Spicy Soup</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kerang Dara Rebus Bumbu Nanas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
@@ -460,71 +458,71 @@
                         <div class="col-lg-7">
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>The Cracker Barrel's Country Boy Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         25.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Uncle Herschel's Favorite</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kepiting Saus Padang Extra Pedas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         45.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Grandpa's Country Fried Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Grandpa's Country Fried Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         30.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Old Timer's Meat Breakfast</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Old Timer's Meat Ikan Bakar</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item-wrapper d-flex justify-content-between">
                                 <div class="item-left">
-                                    <h5>Chinese Chicken Bread Spicy Soup</h5>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                                    <h5>Kerang Dara Rebus Bumbu Nanas</h5>
+                                    <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
                                 </div>
                                 <div class="item-right">
                                     <span class="item-price">
                                         <span class="price-symbol">$</span>
                                         12.0</span>
                                     <div class="item-btn">
-                                        <a href="#">Order</a>
+                                        <a href="#">Pesan</a>
                                     </div>
                                 </div>
                             </div>
@@ -540,7 +538,7 @@
             <div class="row" data-aos="fade-right">
                 <div class="section-title text-center">
                     <h5>Testimonial</h5>
-                    <h2 class="display-5 fw-bold">Our Customer Says</h2>
+                    <h2 class="display-5 fw-bold">Apa Kata Pelanggan Kami</h2>
                 </div>
             </div>
             <div class="row">
@@ -616,8 +614,8 @@
         <div class="container">
             <div class="row" data-aos="fade-right">
                 <div class="section-title text-center">
-                    <h5>Meet Our</h5>
-                    <h2 class="display-6 fw-bold">Awesome Master Chefs</h2>
+                    <h5>Kenali Kami</h5>
+                    <h2 class="display-6 fw-bold">Awesome Andalan</h2>
                 </div>
             </div>
 
@@ -627,7 +625,7 @@
                         <img width="200px" src="{{ asset('assets') }}/images/team-1.png" alt="">
                         <div class="chef-slider-content">
                             <h5 class="text-center d-block">Teresa Doe</h5>
-                            <p class="text-center mb-0">Head Chef</p>
+                            <p class="text-center mb-0">Koki Kepala</p>
                             <div class="d-flex justify-content-center">
                                 <hr class="w-25 my-2">
                             </div>
@@ -661,7 +659,7 @@
                         <img width="200px" src="{{ asset('assets') }}/images/team-2.png" alt="">
                         <div class="chef-slider-content">
                             <h5 class="text-center d-block">Teresa Doe</h5>
-                            <p class="text-center mb-0">Head Chef</p>
+                            <p class="text-center mb-0">Koki Kepala</p>
                             <div class="d-flex justify-content-center">
                                 <hr class="w-25 my-2">
                             </div>
@@ -695,7 +693,7 @@
                         <img width="200px" src="{{ asset('assets') }}/images/team-3.png" alt="">
                         <div class="chef-slider-content">
                             <h5 class="text-center d-block">Teresa Doe</h5>
-                            <p class="text-center mb-0">Head Chef</p>
+                            <p class="text-center mb-0">Koki Kepala</p>
                             <div class="d-flex justify-content-center">
                                 <hr class="w-25 my-2">
                             </div>
@@ -729,7 +727,7 @@
                         <img width="200px" src="{{ asset('assets') }}/images/team-4.png" alt="">
                         <div class="chef-slider-content">
                             <h5 class="text-center d-block">Teresa Doe</h5>
-                            <p class="text-center mb-0">Head Chef</p>
+                            <p class="text-center mb-0">Koki Kepala</p>
                             <div class="d-flex justify-content-center">
                                 <hr class="w-25 my-2">
                             </div>
@@ -855,7 +853,7 @@
                 <div data-aos="fade-up-right"
                     class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center flex-column">
                     <div class="icon-box">
-                        <i class="fas fa-utensils fa-2x"></i>
+                        <i class="fas fa-water fa-2x"></i>
                         <span class="number">1</span>
                     </div>
                     <h4>Reservation</h4>
@@ -878,7 +876,7 @@
                         <i class="fas fa-laptop-house fa-2x"></i>
                         <span class="number">3</span>
                     </div>
-                    <h4>Online Order</h4>
+                    <h4>Online Pesan</h4>
                     <p class="text-center">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote
                         labore et</p>
                 </div>
@@ -974,7 +972,7 @@
                             </p>
                             <div class="blog-readmore text-end">
                                 <a class="text-black text-decoration-none" href="javascript:void(0)">
-                                    Read More
+                                    Selengkapnya
                                     <i class="fa fa-angle-double-right">
                                     </i>
                                 </a>
@@ -1014,7 +1012,7 @@
                             </p>
                             <div class="blog-readmore text-end">
                                 <a class="text-black text-decoration-none" href="javascript:void(0)">
-                                    Read More
+                                    Selengkapnya
                                     <i class="fa fa-angle-double-right">
                                     </i>
                                 </a>
@@ -1054,7 +1052,7 @@
                             </p>
                             <div class="blog-readmore text-end">
                                 <a class="text-black text-decoration-none" href="javascript:void(0)">
-                                    Read More
+                                    Selengkapnya
                                     <i class="fa fa-angle-double-right">
                                     </i>
                                 </a>
