@@ -130,6 +130,15 @@
                 <a class="text-decoration-none" id="shoppingbutton" href="#">
                     <i class="fa fa-shopping-bag me-3"></i>
                 </a>
+                @guest
+                <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#loginModal" title="Login">
+                    <i class="fa fa-user me-3"></i>
+                </a>
+                @else
+                <a class="text-decoration-none text-success" href="{{ route('admin.dashboard') }}" title="Dashboard">
+                    <i class="fa fa-user-check me-3"></i>
+                </a>
+                @endguest
             </div>
         </div>
 
@@ -152,6 +161,15 @@
                     <a class="text-decoration-none" id="shoppingbuttonMobile" href="#">
                         <i class="fa fa-shopping-bag me-3"></i>
                     </a>
+                    @guest
+                    <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#loginModal" title="Login">
+                        <i class="fa fa-user me-3"></i>
+                    </a>
+                    @else
+                    <a class="text-decoration-none text-success" href="{{ route('admin.dashboard') }}" title="Dashboard">
+                        <i class="fa fa-user-check me-3"></i>
+                    </a>
+                    @endguest
                 </div>
             </div>
             <div class="position-fixed w-75 bg-white h-100 top-0 start-0" id="mobile-menu">
