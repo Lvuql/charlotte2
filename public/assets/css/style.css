@@ -220,7 +220,19 @@
   --primary-color: #c9956a; /* Charlotte Rose Gold */
   --secondary-color: #8b6f5e; /* Warm Mocha */
   --accent-color: #d4af7a; /* Champagne Gold */
-  --background-color: #fdf8f4; /* Warm Cream */
+
+  /* =====================================================
+     🎨 WARNA LATAR — Ubah nilai ini untuk custom tema
+     Contoh: #fdf8f4 (cream), #f0f4f0 (sage), #f4f0f8 (lavender)
+     ===================================================== */
+  --bg-color: #fdf8f4;              /* Warna utama latar */
+  --bg-color-dark: #f5ede4;         /* Latar sedikit lebih gelap (auto) */
+  --bg-color-card: #ffffff;         /* Warna card / panel */
+  --bg-color-section-alt: #faf5f0;  /* Section alt (zebra) */
+
+  /* Legacy alias (untuk kompatibilitas) */
+  --background-color: var(--bg-color);
+
   --dark-color: #1e1a17; /* Deep Charcoal */
   --text-color: #3d2b1f; /* Warm Brown Text */
   --heading-color: #2c1f14; /* Deep Espresso */
@@ -238,7 +250,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  background-color: var(--text-color-white);
+  background-color: var(--bg-color);
   color: var(--text-color);
   overflow-x: hidden;
 }
@@ -328,7 +340,7 @@ body::-webkit-scrollbar-thumb {
 /* loader start */
 
 .loader {
-  background-color: var(--text-color-white);
+  background-color: var(--bg-color);
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -423,12 +435,35 @@ header.scrolled {
 
 .logo a {
   display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--text-color-white);
 }
 
 .logo a i {
   font-size: 40px;
+}
+
+/* Logo image */
+.logo-img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);  /* white version by default */
+  transition: filter 0.3s ease;
+}
+
+/* On light header (bg-white pages) show gold */
+header.bg-white .logo-img,
+header.light .logo-img {
+  filter: none;
+}
+
+/* Mobile logo */
+.logo-img-mobile {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .menus > ul {

@@ -80,9 +80,9 @@
 <body>
 
     <div class="loader">
-        <i class="fas fa-star loader-icone" style="animation: pulse-gold 1.5s ease-in-out infinite;"></i>
-        <p style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 8px; font-size: 2rem; color: var(--primary-color);">CHARLOTTE</p>
-        <div class="loader-ellipses" style="margin-top: 16px;">
+        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte"
+             style="height: 100px; width: auto; object-fit: contain; animation: pulse-gold 1.5s ease-in-out infinite; margin-bottom: 8px;">
+        <div class="loader-ellipses" style="margin-top: 12px;">
             <span></span>
             <span></span>
             <span></span>
@@ -94,8 +94,7 @@
             <div class="nav-brand-wrapper">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <h1 class="mb-0">CHARLOTTE</h1>
-                        <span class="logo-sub">Fine Dining · Padang</span>
+                        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte" class="logo-img">
                     </a>
                 </div>
                 <div class="nav-divider"></div>
@@ -140,8 +139,7 @@
             <div class="mobile-nav-logo">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <h1 class="mb-0" style="font-size: 1.2rem; letter-spacing: 2px;">Charlotte</h1>
-                        <span class="logo-sub">Fine Dining · Padang</span>
+                        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte" class="logo-img-mobile">
                     </a>
                 </div>
             </div>
