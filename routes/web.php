@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SettingsController;
 use Illuminate\Support\Facades\Route;
 
 // Frontend Routes (Template)
@@ -53,6 +54,10 @@ Route::middleware('auth')->group(function () {
         Route::resource('categories', CategoryController::class);
         Route::resource('products', ProductController::class);
         Route::resource('orders', OrderController::class)->only(['index', 'show']);
+
+        // Settings (color customizer)
+        Route::get('/settings', [SettingsController::class, 'index'])->name('settings');
+        Route::post('/settings', [SettingsController::class, 'update'])->name('settings.update');
     });
 
     // POS Routes (Cashier)
