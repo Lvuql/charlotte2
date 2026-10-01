@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Charlotte &amp; Hugo – Menu</title>
+    <title>Charlotte – Menu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,7 +18,7 @@
 <body>
     <div class="loader">
         <i class="fas fa-star loader-icone"></i>
-        <p style="font-family: serif; letter-spacing: 5px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</p>
+        <p style="font-family: serif; letter-spacing: 5px; font-size: 1.4rem;">Charlotte</p>
         <div class="loader-ellipses">
             <span></span>
             <span></span>
@@ -31,7 +31,7 @@
             <div class="logo">
                 <a href="{{ route('landing') }}">
                     
-                    <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                    <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                 </a>
             </div>
             <div class="menus">
@@ -85,7 +85,7 @@
                 <div class="logo">
                     <a href="{{ route('landing') }}">
                         
-                        <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                        <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                     </a>
                 </div>
             </div>
@@ -336,7 +336,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Hugo Beef Wellington</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -350,7 +350,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>French Chicken Ballotine</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -364,7 +364,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Salmon Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -378,7 +378,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Classic Beef Bourguignon</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -392,7 +392,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Rib Eye Meltique Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -418,7 +418,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Hugo Beef Wellington</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -432,7 +432,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>French Chicken Ballotine</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -446,7 +446,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Salmon Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -460,7 +460,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Classic Beef Bourguignon</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -474,7 +474,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Rib Eye Meltique Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -500,7 +500,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Hugo Beef Wellington</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -514,7 +514,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>French Chicken Ballotine</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -528,7 +528,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Salmon Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -542,7 +542,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Classic Beef Bourguignon</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -556,7 +556,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Rib Eye Meltique Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -582,7 +582,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Hugo Beef Wellington</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -596,7 +596,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>French Chicken Ballotine</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -610,7 +610,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Salmon Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -624,7 +624,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Classic Beef Bourguignon</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -638,7 +638,7 @@
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
                                         <h5>Rib Eye Meltique Steak</h5>
-                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                        <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -661,7 +661,7 @@
                 <div class="row" data-aos="fade-right">
                     <div class="section-title text-center pb-5">
                         <h5>Pilihan Chef</h5>
-                        <h2 class="text-white display-6 fw-bold">Andalan Charlotte &amp; Hugo</h2>
+                        <h2 class="text-white display-6 fw-bold">Andalan Charlotte</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -758,7 +758,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Hugo Beef Wellington</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -769,7 +769,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>French Chicken Ballotine</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -780,7 +780,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Salmon Steak</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -791,7 +791,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Classic Beef Bourguignon</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -802,7 +802,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Rib Eye Meltique Steak</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -815,7 +815,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Hugo Beef Wellington</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -826,7 +826,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>French Chicken Ballotine</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -837,7 +837,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Salmon Steak</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -848,7 +848,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Classic Beef Bourguignon</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -859,7 +859,7 @@
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
                                 <h5>Rib Eye Meltique Steak</h5>
-                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
+                                <p>Hidangan unggulan Charlotte dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -883,7 +883,7 @@
                         <div class="content" data-aos="fade-right">
                             <h5 class="display-6 text-black">Tetap Terhubung</h5>
                             <p>
-                                Dapatkan info promo dan menu terbaru Charlotte &amp; Hugo setiap minggunya
+                                Dapatkan info promo dan menu terbaru Charlotte setiap minggunya
                             </p>
                         </div>
                         <div class="subscribe-form d-flex ps-0 ms-0 ps-lg-5 ms-lg-5" data-aos="fade-left">
@@ -915,7 +915,7 @@
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
                                     
-                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                                 </a>
                             </div>
                         </div>

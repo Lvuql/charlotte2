@@ -20,9 +20,8 @@
                     <h1 style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 300; color: #fffaf7; line-height: 1.1; margin-bottom: 8px;">
                         Charlotte
                     </h1>
-                    <h1 style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 300; color: #d4af7a; line-height: 1.1; font-style: italic; margin-bottom: 24px;">
-                        &amp; Hugo
-                    </h1>
+
+
 
                     <div style="width: 80px; height: 1px; background: linear-gradient(to right, #c9956a, #d4af7a); margin-bottom: 24px;"></div>
 
@@ -64,7 +63,7 @@
                         <div style="position: absolute; top: 0; left: 0; width: 60px; height: 60px; border-top: 2px solid #c9956a; border-left: 2px solid #c9956a;"></div>
                         <div style="position: absolute; bottom: 0; right: 0; width: 60px; height: 60px; border-bottom: 2px solid #c9956a; border-right: 2px solid #c9956a;"></div>
                         <img class="img img-fluid" src="{{ asset('assets') }}/images/banner-img.png"
-                            alt="Charlotte & Hugo Fine Dining" style="border-radius: 4px; filter: brightness(0.9) contrast(1.05);">
+                            alt="Charlotte Fine Dining" style="border-radius: 4px; filter: brightness(0.9) contrast(1.05);">
                     </div>
                 </div>
             </div>
@@ -173,7 +172,7 @@
                 <div class="col-lg-6 about-img-box">
                     <div class="row g-3">
                         <div class="col-6" data-aos="fade-right">
-                            <img class="img-fluid rounded w-100" src="{{ asset('assets') }}/images/about-1.jpg" alt="Charlotte & Hugo suasana">
+                            <img class="img-fluid rounded w-100" src="{{ asset('assets') }}/images/about-1.jpg" alt="Charlotte suasana">
                         </div>
                         <div class="col-6 text-right" data-aos="fade-down">
                             <img class="img-fluid rounded w-75" src="{{ asset('assets') }}/images/about-2.jpg" alt="Hidangan Charlotte">
@@ -188,8 +187,8 @@
                 </div>
                 <div class="col-lg-6 about-content" data-aos="fade-left">
                     <h5 class="section-title">Tentang Kami</h5>
-                    <h2 class="mb-4 dis">Selamat Datang di <i class="fas fa-star me-2" style="color: #c9956a;"></i>Charlotte & Hugo</h2>
-                    <p class="mb-4">Charlotte & Hugo adalah restoran fine dining yang berlokasi di jantung Kota Padang, menghadirkan perpaduan unik masakan Western klasik dan cita rasa Asia yang autentik dalam suasana yang elegan dan intim.</p>
+                    <h2 class="mb-4 dis">Selamat Datang di <i class="fas fa-star me-2" style="color: #c9956a;"></i>Charlotte</h2>
+                    <p class="mb-4">Charlotte adalah restoran fine dining yang berlokasi di jantung Kota Padang, menghadirkan perpaduan unik masakan Western klasik dan cita rasa Asia yang autentik dalam suasana yang elegan dan intim.</p>
                     <p class="mb-4">Dari Beef Wellington yang sempurna hingga Matcha Brûlée Cheesecake yang memanjakan, setiap hidangan diracik dengan bahan-bahan premium dan penuh cinta oleh tim koki berpengalaman kami.</p>
                     <div class="row g-4 mb-4 about-extra">
                         <div class="col-sm-6">
@@ -572,7 +571,7 @@
                     <div class="slider-content pt-4 pb-4 mx-4">
                         <div>
                             <div class="testi-content">
-                                <p>"Charlotte & Hugo adalah tempat terbaik untuk date night! Suasana sangat romantis, makanannya luar biasa enak. Matcha Brûlée Cheesecake-nya unforgettable! Wajib balik lagi."</p>
+                                <p>"Charlotte adalah tempat terbaik untuk date night! Suasana sangat romantis, makanannya luar biasa enak. Matcha Brûlée Cheesecake-nya unforgettable! Wajib balik lagi."</p>
                             </div>
                             <div class="testi-info">
                                 <span class="name">Aulia Rahma</span>
@@ -590,7 +589,7 @@
                         </div>
                         <div>
                             <div class="testi-content">
-                                <p>"Paket Love in Paris-nya sempurna untuk anniversary kami. Dekorasi intimate, makanan berkelas, dan pengalaman yang benar-benar berkesan. Terima kasih Charlotte & Hugo!"</p>
+                                <p>"Paket Love in Paris-nya sempurna untuk anniversary kami. Dekorasi intimate, makanan berkelas, dan pengalaman yang benar-benar berkesan. Terima kasih Charlotte!"</p>
                             </div>
                             <div class="testi-info">
                                 <span class="name">Dina & Fajar</span>
@@ -684,7 +683,7 @@
             <div class="row">
                 <div class="section-title text-center" data-aos="fade-right">
                     <h5>Galeri</h5>
-                    <h2 class="text-white display-6 fw-bold">Momen di Charlotte & Hugo</h2>
+                    <h2 class="text-white display-6 fw-bold">Momen di Charlotte</h2>
                 </div>
             </div>
             <div class="row pt-5">
@@ -802,7 +801,7 @@
                     <div class="content" data-aos="fade-right">
                         <h5 class="display-6 text-black" style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 2px;">Tetap Terhubung</h5>
                         <p>
-                            Dapatkan info promo terbaru, menu seasonal, dan penawaran eksklusif Charlotte & Hugo setiap minggunya
+                            Dapatkan info promo terbaru, menu seasonal, dan penawaran eksklusif Charlotte setiap minggunya
                         </p>
                     </div>
                     <div class="subscribe-form d-flex ps-0 ms-0 ps-lg-5 ms-lg-5" data-aos="fade-left">

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Charlotte & Hugo – Fine Dining di Padang</title>
-    <meta name="description" content="Charlotte & Hugo – Nikmati pengalaman fine dining terbaik di Padang dengan menu Western & Asian yang eksklusif. Reservasi: 0822-8513-3014." />
+    <title>Charlotte – Fine Dining di Padang</title>
+    <meta name="description" content="Charlotte – Nikmati pengalaman fine dining terbaik di Padang dengan menu Western & Asian yang eksklusif. Reservasi: 0822-8513-3014." />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +22,7 @@
             background-color: var(--accent-color);
         }
 
-        /* Charlotte & Hugo Brand Overrides */
+        /* Charlotte Brand Overrides */
         .logo h1 {
             font-family: 'Cormorant Garamond', serif !important;
             font-weight: 300 !important;
@@ -82,7 +82,6 @@
     <div class="loader">
         <i class="fas fa-star loader-icone" style="animation: pulse-gold 1.5s ease-in-out infinite;"></i>
         <p style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 8px; font-size: 2rem; color: var(--primary-color);">CHARLOTTE</p>
-        <span style="font-family: 'Cormorant Garamond', serif; font-size: 0.75rem; letter-spacing: 5px; color: var(--secondary-color);">& HUGO</span>
         <div class="loader-ellipses" style="margin-top: 16px;">
             <span></span>
             <span></span>
@@ -95,7 +94,7 @@
             <div class="nav-brand-wrapper">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <h1 class="mb-0">CHARLOTTE <span style="font-style: italic; font-weight: 300;">&</span> HUGO</h1>
+                        <h1 class="mb-0">CHARLOTTE</h1>
                         <span class="logo-sub">Fine Dining · Padang</span>
                     </a>
                 </div>
@@ -141,7 +140,7 @@
             <div class="mobile-nav-logo">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <h1 class="mb-0" style="font-size: 1.2rem; letter-spacing: 2px;">CHARLOTTE & HUGO</h1>
+                        <h1 class="mb-0" style="font-size: 1.2rem; letter-spacing: 2px;">Charlotte</h1>
                         <span class="logo-sub">Fine Dining · Padang</span>
                     </a>
                 </div>
@@ -279,7 +278,7 @@
                         <div class="col-lg-6 px-0">
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
-                                    <h1 class="mb-0" style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 3px; font-size: 1.8rem;">CHARLOTTE & HUGO</h1>
+                                    <h1 class="mb-0" style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 3px; font-size: 1.8rem;">Charlotte</h1>
                                     <span style="font-family: 'Cormorant Garamond', serif; font-size: 0.7rem; letter-spacing: 4px; color: var(--accent-color); display: block;">FINE DINING · PADANG</span>
                                 </a>
                             </div>
@@ -301,7 +300,7 @@
                         </div>
                     </div>
                     <div class="row pt-5 content-desc" data-aos="fade-right">
-                        <p class="px-0">Charlotte & Hugo menghadirkan pengalaman bersantap yang tak terlupakan — memadukan keanggunan masakan Western dan cita rasa Asia dalam suasana yang intim dan romantic. Setiap hidangan adalah sebuah karya seni.</p>
+                        <p class="px-0">Charlotte menghadirkan pengalaman bersantap yang tak terlupakan — memadukan keanggunan masakan Western dan cita rasa Asia dalam suasana yang intim dan romantic. Setiap hidangan adalah sebuah karya seni.</p>
                     </div>
                     <div class="row" data-aos="fade-right">
                         <div class="d-flex flex-column flex-lg-row px-0 justify-content-between">
@@ -353,7 +352,7 @@
             </div>
             <div class="row">
                 <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b>
-                        Charlotte & Hugo.</b> All rights reserved. Design by <a
+                        Charlotte.</b> All rights reserved. Design by <a
                         href="#" class="fw-bold author-name">Randi
                         Fadillah</a></p>
             </div>

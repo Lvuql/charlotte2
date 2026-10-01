@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Charlotte &amp; Hugo</title>
+    <title>Charlotte</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,7 +24,7 @@
 
     <div class="loader">
         <i class="fas fa-utensils loader-icone"></i>
-        <p style="font-family: serif; letter-spacing: 4px; font-size: 1.5rem;">CHARLOTTE &amp; HUGO</p>
+        <p style="font-family: serif; letter-spacing: 4px; font-size: 1.5rem;">Charlotte</p>
         <div class="loader-ellipses">
             <span></span>
             <span></span>
@@ -37,7 +37,7 @@
             <div class="logo">
                 <a href="{{ route('landing') }}">
                     <i class="fa fa-utensils me-3"></i>
-                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                 </a>
             </div>
             <div class="menus">
@@ -87,7 +87,7 @@
                 <div class="logo">
                     <a href="{{ route('landing') }}">
                         <i class="fa fa-utensils me-3"></i>
-                        <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                        <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                     </a>
                 </div>
             </div>
@@ -266,7 +266,7 @@
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
                                     <i class="fa fa-utensils me-3"></i>
-                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
+                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
                                 </a>
                             </div>
                         </div>
@@ -418,7 +418,7 @@
               <div class="tab-pane fade" id="register-pane" role="tabpanel">
                 <div class="text-center mb-4">
                   <h4 class="fw-bold mb-1">Buat Akun Baru</h4>
-                  <p class="text-muted small">Bergabunglah dengan Charlotte &amp; Hugo</p>
+                  <p class="text-muted small">Bergabunglah dengan Charlotte</p>
                 </div>
                 <form action="{{ route('register') }}" method="POST">
                     @csrf
