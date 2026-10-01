@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restoran - About</title>
+    <title>Charlotte &amp; Hugo – Tentang Kami</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,8 +17,8 @@
 
 <body>
     <div class="loader">
-        <i class="fas fa-water loader-icone"></i>
-        <p>Restoran</p>
+        <i class="fas fa-star loader-icone"></i>
+        <p style="font-family: serif; letter-spacing: 6px; font-size: 1.5rem;">CHARLOTTE &amp; HUGO</p>
         <div class="loader-ellipses">
             <span></span>
             <span></span>
@@ -30,8 +30,8 @@
         <div class="container header my-3 d-none d-lg-flex">
             <div class="logo">
                 <a href="{{ route('landing') }}">
-                    <i class="fa fa-water me-3 text-dark"></i>
-                    <h1 class="mb-0 text-dark">Restoran</h1>
+                    
+                    <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 3px; font-size: 1.5rem;">CHARLOTTE &amp; HUGO</h1>
                 </a>
             </div>
             <div class="menus">
@@ -46,14 +46,14 @@
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark"
-                            href="{{ route('reservation') }}">Reservation</a>
+                            href="{{ route('reservation') }}">Reservasi</a>
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark" href="{{ route('menu') }}">Menu</a>
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark"
-                            href="{{ route('contact') }}">Contact</a>
+                            href="{{ route('contact') }}">Kontak</a>
                     </li>
                 </ul>
             </div>
@@ -84,8 +84,8 @@
             <div class="mobile-nav-logo">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <i class="fa fa-water me-3 text-dark"></i>
-                        <h1 class="mb-0 text-dark">Restoran</h1>
+                        
+                        <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 3px; font-size: 1.5rem;">CHARLOTTE &amp; HUGO</h1>
                     </a>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
-                                href="{{ route('reservation') }}">Reservation</a>
+                                href="{{ route('reservation') }}">Reservasi</a>
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
@@ -131,7 +131,7 @@
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
-                                href="{{ route('contact') }}">Contact</a>
+                                href="{{ route('contact') }}">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -162,7 +162,7 @@
                     <img src="{{ asset('assets') }}/images/product-2a.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>The Cracker Barrel's Country Boy Ikan Bakar</h3>
+                    <h3>French Chicken Ballotine</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 25.0</p>
+                    <p class="mb-0 text-center">Rp 63K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -178,7 +178,7 @@
                     <img src="{{ asset('assets') }}/images/product-2b.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Old Timer's Meat Ikan Bakar</h3>
+                    <h3>Matcha Brûlée Cheesecake</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -186,7 +186,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 12.0</p>
+                    <p class="mb-0 text-center">Rp 49K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -194,7 +194,7 @@
                     <img src="{{ asset('assets') }}/images/product-2c.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Kepiting Saus Padang Extra Pedas</h3>
+                    <h3>Hugo Beef Wellington</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -202,7 +202,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 25.0</p>
+                    <p class="mb-0 text-center">Rp 63K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -210,7 +210,7 @@
                     <img src="{{ asset('assets') }}/images/product-2d.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Grandpa's Country Fried Ikan Bakar</h3>
+                    <h3>Balinese Chicken Betutu</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -218,7 +218,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 30.0</p>
+                    <p class="mb-0 text-center">Rp 45K</p>
                 </div>
             </div>
         </div>
@@ -229,7 +229,7 @@
                     <p class="mb-0">Pajak akan dihitung saat pembayaran</p>
                 </div>
                 <div class="d-flex align-items-end">
-                    <p class="footet-total-price mb-0">$ 92.0</p>
+                    <p class="footet-total-price mb-0">Rp 277K</p>
                 </div>
             </div>
             <div class="d-flex justify-content-between px-2">
@@ -251,13 +251,13 @@
                 <div class="row">
                     <div class="banner-content">
                         <h2 class="text-white display-6 fw-bold text-center" data-aos="fade-right"
-                            data-aos-delay="3000">About Us</h2>
+                            data-aos-delay="3000">Tentang Kami</h2>
                         <div class="divider" data-aos="fade-up-right" data-aos-delay="3000">
                             <div class="dot mb-2"></div>
                         </div>
                         <p class="text-white mb-0 text-center" data-aos="fade-left" data-aos-delay="3000">
-                            We bring to you the unforgetable moment with our delicious
-                            dishes
+                            Kisah Charlotte &amp; Hugo — sebuah perjalanan kuliner penuh cinta di Kota Padang
+                            
                         </p>
                     </div>
                 </div>
@@ -268,7 +268,7 @@
             <div class="container">
                 <div class="row" data-aos="fade-right">
                     <h2 class="text-center display-6 fw-bold">
-                        Restoran Glory Story
+                        Perjalanan Charlotte &amp; Hugo
                     </h2>
                     <div class="about-line d-flex justify-content-center align-items-center">
                         <span></span>
@@ -651,7 +651,7 @@
                         <div class="counter-box d-flex flex-column align-items-center">
                             <div class="counter-info pb-3">
                                 <span class="number">103</span>
-                                <span class="heading">/dishes</span>
+                                <span class="heading">/</span>
                             </div>
                             <div class="counter-avatar pt-4">
                                 <img src="{{ asset('assets') }}/images/counter-1.png" alt="">
@@ -808,7 +808,7 @@
                         <div class="content" data-aos="fade-right">
                             <h5 class="display-6 text-black">Subcribe Us Now</h5>
                             <p>
-                                Get more news and delicious dishes everyday from us
+                                Get more news and delicious  everyday from us
                             </p>
                         </div>
                         <div class="subscribe-form d-flex ps-0 ms-0 ps-lg-5 ms-lg-5" data-aos="fade-left">
@@ -872,8 +872,8 @@
                                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        157 White Oak Drive Kansas City <br>
-                                        689 Lynn Street South Boston
+                                        Jl. Purus 1 No. 1F <br>
+                                        Kota Padang
                                     </p>
                                 </div>
                             </div>
@@ -881,8 +881,8 @@
                                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        (617)-276-8031 <br>
-                                        (617)-276-8031
+                                        (0822) 8513-3014 <br>
+                                        (0822) 8513-3014
                                     </p>
                                 </div>
                             </div>
@@ -890,8 +890,8 @@
                                 <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        admin@fooday.com <br>
-                                        support@fooday.com
+                                        charlotte.hugo.padang@gmail.com <br>
+                                        Info &amp; Reservasi: 0822-8513-3014
                                     </p>
                                 </div>
                             </div>
@@ -903,16 +903,16 @@
                         <div class="reservation-wrapper">
                             <h2>Open Hour</h2>
                             <div class="reservation-date-time">
-                                <p>Tuesday: .......................... 7AM - 9PM</p>
-                                <p>Wednesday: ..................... 7AM - 9PM</p>
-                                <p>Thursday: ......................... 7AM - 9PM</p>
-                                <p>Friday: ............................... 7AM - 9PM</p>
-                                <p>Saturday: ........................... 7AM - 9PM</p>
-                                <p>Sunday: ............................. 7AM - 9PM</p>
-                                <p>Monday: ............................. Close</p>
+                                <p>Senin &amp; Kamis: ..... 11AM - 10PM</p>
+                                <p>Jumat &amp; Sabtu: ... 11AM - 11PM</p>
+                                <p>Minggu: ............... 11AM - 10PM</p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
                             </div>
-                            <h2 class="pb-2">Reservation Numbers</h2>
-                            <h3>(617)-276-8031</h3>
+                            <h2 class="pb-2">Nomor Reservasi</h2>
+                            <h3>(0822) 8513-3014</h3>
                         </div>
                     </div>
                 </div>

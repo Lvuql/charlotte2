@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restoran</title>
+    <title>Charlotte &amp; Hugo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,7 +24,7 @@
 
     <div class="loader">
         <i class="fas fa-utensils loader-icone"></i>
-        <p>Restoran</p>
+        <p style="font-family: serif; letter-spacing: 4px; font-size: 1.5rem;">CHARLOTTE &amp; HUGO</p>
         <div class="loader-ellipses">
             <span></span>
             <span></span>
@@ -37,7 +37,7 @@
             <div class="logo">
                 <a href="{{ route('landing') }}">
                     <i class="fa fa-utensils me-3"></i>
-                    <h1 class="mb-0">Restoran</h1>
+                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                 </a>
             </div>
             <div class="menus">
@@ -87,7 +87,7 @@
                 <div class="logo">
                     <a href="{{ route('landing') }}">
                         <i class="fa fa-utensils me-3"></i>
-                        <h1 class="mb-0">Restoran</h1>
+                        <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                     </a>
                 </div>
             </div>
@@ -164,7 +164,7 @@
                     <img src="{{ asset('assets') }}/images/product-2a.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>The Cracker Barrel's Country Boy Breakfast</h3>
+                    <h3>French Chicken Ballotine</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 25.0</p>
+                    <p class="mb-0 text-center">Rp 63K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -180,7 +180,7 @@
                     <img src="{{ asset('assets') }}/images/product-2b.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Old Timer's Meat Breakfast</h3>
+                    <h3>Matcha Brûlée Cheesecake</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 12.0</p>
+                    <p class="mb-0 text-center">Rp 49K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -196,7 +196,7 @@
                     <img src="{{ asset('assets') }}/images/product-2c.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Uncle Herschel's Favorite</h3>
+                    <h3>Salmon Steak</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 25.0</p>
+                    <p class="mb-0 text-center">Rp 63K</p>
                 </div>
             </div>
             <div class="row shopping-cart-item d-flex justify-content-between">
@@ -212,7 +212,7 @@
                     <img src="{{ asset('assets') }}/images/product-2d.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Grandpa's Country Fried Breakfast</h3>
+                    <h3>Balinese Chicken Betutu</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <div class="col-2 item-price d-flex align-items-end">
-                    <p class="mb-0 text-center">$ 30.0</p>
+                    <p class="mb-0 text-center">Rp 45K</p>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
                     <p class="mb-0">Shipping & taxes calculated at checkout</p>
                 </div>
                 <div class="d-flex align-items-end">
-                    <p class="footet-total-price mb-0">$ 92.0</p>
+                    <p class="footet-total-price mb-0">Rp 277K</p>
                 </div>
             </div>
             <div class="d-flex justify-content-between px-2">
@@ -266,7 +266,7 @@
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
                                     <i class="fa fa-utensils me-3"></i>
-                                    <h1 class="mb-0">Restoran</h1>
+                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                                 </a>
                             </div>
                         </div>
@@ -298,8 +298,8 @@
                                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        157 White Oak Drive Kansas City <br>
-                                        689 Lynn Street South Boston
+                                        Jl. Purus 1 No. 1F <br>
+                                        Kota Padang
                                     </p>
                                 </div>
                             </div>
@@ -307,8 +307,8 @@
                                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        (617)-276-8031 <br>
-                                        (617)-276-8031
+                                        (0822) 8513-3014 <br>
+                                        (0822) 8513-3014
                                     </p>
                                 </div>
                             </div>
@@ -316,8 +316,8 @@
                                 <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        admin@fooday.com <br>
-                                        support@fooday.com
+                                        charlotte.hugo.padang@gmail.com <br>
+                                        Info &amp; Reservasi: 0822-8513-3014
                                     </p>
                                 </div>
                             </div>
@@ -338,7 +338,7 @@
                                 <p>Monday: ............................. Close</p>
                             </div>
                             <h2 class="pb-2">Reservation Numbers</h2>
-                            <h3>(617)-276-8031</h3>
+                            <h3>(0822) 8513-3014</h3>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
               <div class="tab-pane fade" id="register-pane" role="tabpanel">
                 <div class="text-center mb-4">
                   <h4 class="fw-bold mb-1">Buat Akun Baru</h4>
-                  <p class="text-muted small">Bergabunglah dengan Restoran kami</p>
+                  <p class="text-muted small">Bergabunglah dengan Charlotte &amp; Hugo</p>
                 </div>
                 <form action="{{ route('register') }}" method="POST">
                     @csrf

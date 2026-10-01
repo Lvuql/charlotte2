@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restoran - Menu</title>
+    <title>Charlotte &amp; Hugo – Menu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,8 +17,8 @@
 
 <body>
     <div class="loader">
-        <i class="fas fa-water loader-icone"></i>
-        <p>Restoran</p>
+        <i class="fas fa-star loader-icone"></i>
+        <p style="font-family: serif; letter-spacing: 5px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</p>
         <div class="loader-ellipses">
             <span></span>
             <span></span>
@@ -30,8 +30,8 @@
         <div class="container header my-3 d-none d-lg-flex">
             <div class="logo">
                 <a href="{{ route('landing') }}">
-                    <i class="fa fa-water me-3 text-dark"></i>
-                    <h1 class="mb-0 text-dark">Restoran</h1>
+                    
+                    <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                 </a>
             </div>
             <div class="menus">
@@ -46,14 +46,14 @@
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark"
-                            href="{{ route('reservation') }}">Reservation</a>
+                            href="{{ route('reservation') }}">Reservasi</a>
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark" href="{{ route('menu') }}">Menu</a>
                     </li>
                     <li class="list-unstyled py-2">
                         <a class="text-decoration-none text-uppercase p-4 text-dark"
-                            href="{{ route('contact') }}">Contact</a>
+                            href="{{ route('contact') }}">Kontak</a>
                     </li>
                 </ul>
             </div>
@@ -84,8 +84,8 @@
             <div class="mobile-nav-logo">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <i class="fa fa-water me-3 text-dark"></i>
-                        <h1 class="mb-0 text-dark">Restoran</h1>
+                        
+                        <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                     </a>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
-                                href="{{ route('reservation') }}">Reservation</a>
+                                href="{{ route('reservation') }}">Reservasi</a>
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
@@ -131,7 +131,7 @@
                         </li>
                         <li class="list-unstyled py-2">
                             <a class="text-dark text-decoration-none text-uppercase p-4"
-                                href="{{ route('contact') }}">Contact</a>
+                                href="{{ route('contact') }}">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -162,7 +162,7 @@
                     <img src="{{ asset('assets') }}/images/product-2a.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>The Cracker Barrel's Country Boy Ikan Bakar</h3>
+                    <h3>Hugo Beef Wellington</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -178,7 +178,7 @@
                     <img src="{{ asset('assets') }}/images/product-2b.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Old Timer's Meat Ikan Bakar</h3>
+                    <h3>Classic Beef Bourguignon</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -194,7 +194,7 @@
                     <img src="{{ asset('assets') }}/images/product-2c.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Kepiting Saus Padang Extra Pedas</h3>
+                    <h3>French Chicken Ballotine</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -210,7 +210,7 @@
                     <img src="{{ asset('assets') }}/images/product-2d.jpg" alt="">
                 </div>
                 <div class="col-8">
-                    <h3>Grandpa's Country Fried Ikan Bakar</h3>
+                    <h3>Salmon Steak</h3>
                     <div class="shopping-cart-counter">
                         <i class="fa fa-minus"></i>
                         <span>1</span>
@@ -255,7 +255,7 @@
                         <div class="divider" data-aos="fade-up-right" data-aos-delay="3000">
                             <div class="dot mb-2"></div>
                         </div>
-                        <p class="text-center">Berbagai hidangan lezat siap memanjakan lidah Anda.</p>
+                        <p class="text-center" style="color: rgba(255,250,247,0.85);">Perpaduan cita rasa Western & Asian yang autentik — dibuat dengan bahan premium dan penuh cinta.</p>
                     </div>
                 </div>
             </div>
@@ -273,47 +273,47 @@
                     <div class="slider slider-indicators-wrapper justify-content-center">
                         <div class="slider-indicators">
                             <div class="indicators-icon active text-center">
-                                <i class="fas fa-fish fa-2x"></i>
+                                <i class="fas fa-drumstick-bite fa-2x"></i>
                             </div>
                             <div class="indicators-title text-center">
                                 <h5>
-                                    Ikan Bakar
+                                    Western
                                 </h5>
                             </div>
                         </div>
                         <div class="slider-indicators">
                             <div class="indicators-icon text-center">
-                                <i class="fas fa-water fa-2x"></i>
+                                <i class="fas fa-bowl-rice fa-2x"></i>
                             </div>
                             <div class="indicators-title text-center">
                                 <h5>
-                                    Seafood
+                                    Asian
                                 </h5>
                             </div>
                         </div>
                         <div class="slider-indicators">
                             <div class="indicators-icon text-center">
-                                <i class="fas fa-anchor fa-2x"></i>
+                                <i class="fas fa-cake-candles fa-2x"></i>
                             </div>
                             <div class="indicators-title text-center">
                                 <h5>
-                                    Kepiting & Udang
+                                    Dessert
                                 </h5>
                             </div>
                         </div>
                         <div class="slider-indicators">
                             <div class="indicators-icon text-center">
-                                <i class="fas fa-leaf fa-2x"></i>
+                                <i class="fas fa-cookie-bite fa-2x"></i>
                             </div>
                             <div class="indicators-title text-center">
                                 <h5>
-                                    Camilan
+                                    Snacks
                                 </h5>
                             </div>
                         </div>
                         <div class="slider-indicators">
                             <div class="indicators-icon text-center">
-                                <i class="fas fa-glass-cheers fa-2x"></i>
+                                <i class="fas fa-coffee fa-2x"></i>
                             </div>
                             <div class="indicators-title text-center">
                                 <h5>
@@ -335,8 +335,8 @@
                             <div class="col-lg-7">
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Hugo Beef Wellington</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -349,8 +349,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>French Chicken Ballotine</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -363,8 +363,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Salmon Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -377,8 +377,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Old Timer's Meat Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Classic Beef Bourguignon</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -391,8 +391,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Rib Eye Meltique Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -417,8 +417,8 @@
                             <div class="col-lg-7">
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Hugo Beef Wellington</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -431,8 +431,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>French Chicken Ballotine</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -445,8 +445,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Salmon Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -459,8 +459,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Old Timer's Meat Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Classic Beef Bourguignon</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -473,8 +473,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Rib Eye Meltique Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -499,8 +499,8 @@
                             <div class="col-lg-7">
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Hugo Beef Wellington</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -513,8 +513,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>French Chicken Ballotine</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -527,8 +527,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Salmon Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -541,8 +541,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Old Timer's Meat Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Classic Beef Bourguignon</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -555,8 +555,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Rib Eye Meltique Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -581,8 +581,8 @@
                             <div class="col-lg-7">
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Hugo Beef Wellington</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -595,8 +595,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>French Chicken Ballotine</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -609,8 +609,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Salmon Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -623,8 +623,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Old Timer's Meat Ikan Bakar</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Classic Beef Bourguignon</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -637,8 +637,8 @@
                                 </div>
                                 <div class="item-wrapper d-flex justify-content-between">
                                     <div class="item-left">
-                                        <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                        <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                        <h5>Rib Eye Meltique Steak</h5>
+                                        <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                                     </div>
                                     <div class="item-right">
                                         <span class="item-price">
@@ -660,8 +660,8 @@
             <div class="container py-5">
                 <div class="row" data-aos="fade-right">
                     <div class="section-title text-center pb-5">
-                        <h5>Rekomendasi Koki</h5>
-                        <h2 class="text-white display-6 fw-bold">Spesial Hari Ini</h2>
+                        <h5>Pilihan Chef</h5>
+                        <h2 class="text-white display-6 fw-bold">Andalan Charlotte &amp; Hugo</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -676,7 +676,7 @@
                                     <img class="rounded-circle" src="{{ asset('assets') }}/images/product-2a.jpg"
                                         width="70px" height="70px" alt="">
                                     <div class="ps-3">
-                                        <h5 class="text-white">The Cracker Barrel's Country Boy Ikan Bakar</h5>
+                                        <h5 class="text-white">Hugo Beef Wellington</h5>
                                         <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit
                                             esse cillum </p>
                                     </div>
@@ -692,7 +692,7 @@
                                     <img class="rounded-circle" src="{{ asset('assets') }}/images/product-2b.jpg"
                                         width="70px" height="70px" alt="">
                                     <div class="ps-3">
-                                        <h5 class="text-white">Kepiting Saus Padang Extra Pedas</h5>
+                                        <h5 class="text-white">French Chicken Ballotine</h5>
                                         <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit
                                             esse cillum </p>
                                     </div>
@@ -708,7 +708,7 @@
                                     <img class="rounded-circle" src="{{ asset('assets') }}/images/product-2c.jpg"
                                         width="70px" height="70px" alt="">
                                     <div class="ps-3">
-                                        <h5 class="text-white">Grandpa's Country Fried Ikan Bakar</h5>
+                                        <h5 class="text-white">Salmon Steak</h5>
                                         <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit
                                             esse cillum </p>
                                     </div>
@@ -724,7 +724,7 @@
                                     <img class="rounded-circle" src="{{ asset('assets') }}/images/product-2d.jpg"
                                         width="70px" height="70px" alt="">
                                     <div class="ps-3">
-                                        <h5 class="text-white">Old Timer's Meat Ikan Bakar</h5>
+                                        <h5 class="text-white">Classic Beef Bourguignon</h5>
                                         <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit
                                             esse cillum </p>
                                     </div>
@@ -748,7 +748,7 @@
         <section class="lunch-time my-5 pb-0 pb-lg-5">
             <div class="container">
                 <div class="row" data-aos="fade-right">
-                    <h2 class="text-center display-6 fw-bold">Aneka Seafood</h2>
+                    <h2 class="text-center display-6 fw-bold">Menu Pilihan Lainnya</h2>
                     <div class="menu-line d-flex justify-content-center align-items-center">
                         <span></span>
                     </div>
@@ -757,8 +757,8 @@
                     <div class="col-lg-6" data-aos="fade-right">
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Hugo Beef Wellington</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -768,8 +768,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>French Chicken Ballotine</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -779,8 +779,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Salmon Steak</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -790,8 +790,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Old Timer's Meat Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Classic Beef Bourguignon</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -801,8 +801,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Rib Eye Meltique Steak</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -814,8 +814,8 @@
                     <div class="col-lg-6" data-aos="fade-left">
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>The Cracker Barrel's Country Boy Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Hugo Beef Wellington</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -825,8 +825,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Kepiting Saus Padang Extra Pedas</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>French Chicken Ballotine</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -836,8 +836,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Grandpa's Country Fried Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Salmon Steak</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -847,8 +847,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Old Timer's Meat Ikan Bakar</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Classic Beef Bourguignon</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -858,8 +858,8 @@
                         </div>
                         <div class="item-wrapper d-flex justify-content-between">
                             <div class="item-left">
-                                <h5>Kerang Dara Rebus Bumbu Nanas</h5>
-                                <p>Hidangan lezat dengan bumbu racikan rahasia khas Ikan Karang. </p>
+                                <h5>Rib Eye Meltique Steak</h5>
+                                <p>Hidangan unggulan Charlotte &amp; Hugo dengan cita rasa premium. </p>
                             </div>
                             <div class="item-right">
                                 <span class="item-price">
@@ -881,9 +881,9 @@
                     </div>
                     <div class="col-lg-8 d-flex flex-column flex-md-row align-items-lg-center">
                         <div class="content" data-aos="fade-right">
-                            <h5 class="display-6 text-black">Subcribe Us Now</h5>
+                            <h5 class="display-6 text-black">Tetap Terhubung</h5>
                             <p>
-                                Get more news and delicious dishes everyday from us
+                                Dapatkan info promo dan menu terbaru Charlotte &amp; Hugo setiap minggunya
                             </p>
                         </div>
                         <div class="subscribe-form d-flex ps-0 ms-0 ps-lg-5 ms-lg-5" data-aos="fade-left">
@@ -914,8 +914,8 @@
                         <div class="col-lg-6 px-0">
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
-                                    <i class="fa fa-water me-3"></i>
-                                    <h1 class="mb-0">Restoran</h1>
+                                    
+                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">CHARLOTTE &amp; HUGO</h1>
                                 </a>
                             </div>
                         </div>
@@ -947,8 +947,8 @@
                                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        157 White Oak Drive Kansas City <br>
-                                        689 Lynn Street South Boston
+                                        Jl. Purus 1 No. 1F <br>
+                                        Kota Padang
                                     </p>
                                 </div>
                             </div>
@@ -956,8 +956,8 @@
                                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        (617)-276-8031 <br>
-                                        (617)-276-8031
+                                        (0822) 8513-3014 <br>
+                                        (0822) 8513-3014
                                     </p>
                                 </div>
                             </div>
@@ -965,8 +965,8 @@
                                 <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
                                 <div class="ps-3">
                                     <p class="mb-0">
-                                        admin@fooday.com <br>
-                                        support@fooday.com
+                                        charlotte.hugo.padang@gmail.com <br>
+                                        Info &amp; Reservasi
                                     </p>
                                 </div>
                             </div>
@@ -978,16 +978,16 @@
                         <div class="reservation-wrapper">
                             <h2>Open Hour</h2>
                             <div class="reservation-date-time">
-                                <p>Tuesday: .......................... 7AM - 9PM</p>
-                                <p>Wednesday: ..................... 7AM - 9PM</p>
-                                <p>Thursday: ......................... 7AM - 9PM</p>
-                                <p>Friday: ............................... 7AM - 9PM</p>
-                                <p>Saturday: ........................... 7AM - 9PM</p>
-                                <p>Sunday: ............................. 7AM - 9PM</p>
-                                <p>Monday: ............................. Close</p>
+                                <p>Senin &amp; Kamis: ..... 11AM - 10PM</p>
+                                <p>Jumat &amp; Sabtu: ... 11AM - 11PM</p>
+                                <p>Minggu: ............... 11AM - 10PM</p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
                             </div>
-                            <h2 class="pb-2">Reservation Numbers</h2>
-                            <h3>(617)-276-8031</h3>
+                            <h2 class="pb-2">Nomor Reservasi</h2>
+                            <h3>(0822) 8513-3014</h3>
                         </div>
                     </div>
                 </div>

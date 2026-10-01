@@ -217,13 +217,17 @@
 
 /* Color Variables */
 :root {
-  --primary-color: #e5612f; /* Example Primary Color */
-  --secondary-color: #6c757d; /* Example Secondary Color */
-  --background-color: #eef0f1; /* Example Background Color */
-  --text-color: #212529; /* Example Text Color */
-  --heading-color: #343a40; /* Example Heading Color */
-  --border-color: #dee2e6; /* Example Border Color */
-  --text-color-white: #ffff;
+  --primary-color: #c9956a; /* Charlotte Rose Gold */
+  --secondary-color: #8b6f5e; /* Warm Mocha */
+  --accent-color: #d4af7a; /* Champagne Gold */
+  --background-color: #fdf8f4; /* Warm Cream */
+  --dark-color: #1e1a17; /* Deep Charcoal */
+  --text-color: #3d2b1f; /* Warm Brown Text */
+  --heading-color: #2c1f14; /* Deep Espresso */
+  --border-color: #e8d5c4; /* Blush Border */
+  --text-color-white: #fffaf7;
+  --gradient-primary: linear-gradient(135deg, #c9956a 0%, #d4af7a 50%, #b8835a 100%);
+  --gradient-dark: linear-gradient(135deg, #1e1a17 0%, #2c1f14 100%);
 }
 
 /* Applying Fonts and Colors to Elements */
