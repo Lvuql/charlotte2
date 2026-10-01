@@ -345,7 +345,7 @@
             </div>
             <div class="row">
                 <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b>
-                        Restoran.</b> All rights reserved. Design by <a
+                        Charlotte.</b> All rights reserved. Design by <a
                         href="https://www.linkedin.com/in/codewithshabbir/" class="fw-bold author-name">Randi
                         Fadillah</a></p>
             </div>

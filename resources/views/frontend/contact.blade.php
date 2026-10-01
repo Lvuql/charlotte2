@@ -13,6 +13,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="{{ asset('assets') }}/css/style.css" />
+<style>{!! \App\Helpers\Settings::cssVariables() !!}</style>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <div class="logo">
                 <a href="{{ route('landing') }}">
                     
-                    <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
+                    <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" class="logo-img" style="height: 45px;">
                 </a>
             </div>
             <div class="menus">
@@ -65,8 +66,8 @@
                     <i class="fa fa-shopping-bag me-3 text-dark"></i>
                 </a>
                 @guest
-                <a class="text-decoration-none text-dark" href="#" data-bs-toggle="modal" data-bs-target="#authModal" title="Login / Register">
-                    <i class="fa fa-user me-3"></i>
+                <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#loginModal" title="Login">
+                    <i class="fa fa-user me-3 text-dark"></i>
                 </a>
                 @else
                 <a class="text-decoration-none text-success" href="{{ route('admin.dashboard') }}" title="Dashboard">
@@ -85,7 +86,7 @@
                 <div class="logo">
                     <a href="{{ route('landing') }}">
                         
-                        <h1 class="mb-0 text-dark" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
+                        <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" class="logo-img" style="height: 45px;">
                     </a>
                 </div>
             </div>
@@ -98,7 +99,7 @@
                         <i class="fa fa-shopping-bag me-3 text-dark"></i>
                     </a>
                     @guest
-                    <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#authModal">
+                    <a class="text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#loginModal" title="Login">
                         <i class="fa fa-user me-3 text-dark"></i>
                     </a>
                     @else
@@ -371,8 +372,7 @@
         </section>
 
         <section class="subscribe-us pb-5 mb-5">
-            <img class="d-none d-lg-block" src="{{ asset('assets') }}/images/subscribe-us.png" alt=""
-                data-aos="fade-down-right">
+            
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
@@ -412,8 +412,7 @@
                         <div class="col-lg-6 px-0">
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
-                                    
-                                    <h1 class="mb-0" style="font-family: serif; font-weight: 300; letter-spacing: 2px; font-size: 1.4rem;">Charlotte</h1>
+                                    <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" style="height: 60px; filter: drop-shadow(0px 2px 10px rgba(201,149,106,0.3));">
                                 </a>
                             </div>
                         </div>
@@ -492,7 +491,7 @@
             </div>
             <div class="row">
                 <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b>
-                        Restoran.</b> All rights reserved. Design by <a
+                        Charlotte.</b> All rights reserved. Design by <a
                         href="https://www.linkedin.com/in/codewithshabbir/" class="fw-bold author-name">Randi
                         Fadillah</a></p>
             </div>
@@ -624,6 +623,7 @@
       });
     </script>
     @endif
+    @include('components.login-modal')
 </body>
 
 </html>

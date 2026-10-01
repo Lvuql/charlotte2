@@ -275,7 +275,7 @@ h2 {
 h5 {
   position: relative;
   display: inline;
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: var(--primary-color);
 }
 
@@ -314,7 +314,7 @@ button,
 }
 
 .logo {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: var(--primary-color);
 }
 
@@ -352,7 +352,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .loader p {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 60px;
 }
 
@@ -449,14 +449,7 @@ header.scrolled {
   height: 52px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);  /* white version by default */
-  transition: filter 0.3s ease;
-}
-
-/* On light header (bg-white pages) show gold */
-header.bg-white .logo-img,
-header.light .logo-img {
-  filter: none;
+  /* SVG logo is gold+transparent — no filter needed */
 }
 
 /* Mobile logo */
@@ -586,7 +579,7 @@ header.light .logo-img {
 }
 
 .shopping-cart-header h2 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   font-size: 24px;
 }
@@ -615,7 +608,7 @@ header.light .logo-img {
 }
 
 .shopping-cart-item .item-price p, .shopping-cart-footer .footet-total-price{
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
   color: var(--primary-color);
 }
@@ -952,7 +945,7 @@ header.light .logo-img {
 .menu-page .chef-choise .section-title {
   position: relative;
   display: inline;
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: var(--primary-color);
 }
 
@@ -1159,7 +1152,7 @@ header.light .logo-img {
 .chef-choise .item-wrapper .item-right .item-price,
 .chef-choise .item-wrapper .item-right .price-symbol {
   color: var(--primary-color);
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 24px;
 }
 
@@ -1486,7 +1479,7 @@ header.light .logo-img {
 
 .reservation .reservation-content h2 {
   position: relative;
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
 }
 
@@ -1552,7 +1545,7 @@ header.light .logo-img {
 }
 
 .our-services h4 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
 }
 
@@ -1635,7 +1628,7 @@ header.light .logo-img {
 }
 
 .card .blog-content .blog-title a {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 300;
   color: black;
@@ -1749,8 +1742,10 @@ footer p {
 
 .reservation-box {
   margin-top: -130px;
-  background-image: url("./../images/ft-res-bg.jpg");
+  background: linear-gradient(135deg, var(--bg-color-dark) 0%, var(--dark-color) 100%);
   padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .reservation-box .reservation-wrapper {
@@ -1759,7 +1754,7 @@ footer p {
 }
 
 .reservation-box .reservation-wrapper h2 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   padding-bottom: 20px;
   color: white;
@@ -1814,7 +1809,7 @@ footer p {
 }
 
 .page-banner .banner-content h2 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   position: relative;
   font-weight: 400;
   word-spacing: 16px;
@@ -2123,7 +2118,7 @@ footer p {
 }
 
 .reservation-page .reservation-services h4{
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: white;
   font-weight: 300;
 }
@@ -2166,7 +2161,7 @@ footer p {
 }
 
 .reservation-page .reservation-events .event-card .event-heading .heading p{
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: #29272e;
   font-weight: 300;
   font-size: 24px;
@@ -2416,7 +2411,7 @@ footer p {
 }
 
 .counter .counter-box .number {
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 60px;
   font-weight: 300;
   color: var(--primary-color);
@@ -2425,7 +2420,7 @@ footer p {
 
 .counter .counter-box .heading {
   font-size: 16px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: black;
 }
 

@@ -75,12 +75,13 @@
             margin-right: 4px;
         }
     </style>
+<style>{!! \App\Helpers\Settings::cssVariables() !!}</style>
 </head>
 
 <body>
 
     <div class="loader">
-        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte"
+        <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte"
              style="height: 100px; width: auto; object-fit: contain; animation: pulse-gold 1.5s ease-in-out infinite; margin-bottom: 8px;">
         <div class="loader-ellipses" style="margin-top: 12px;">
             <span></span>
@@ -94,7 +95,7 @@
             <div class="nav-brand-wrapper">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte" class="logo-img">
+                        <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" class="logo-img">
                     </a>
                 </div>
                 <div class="nav-divider"></div>
@@ -139,7 +140,7 @@
             <div class="mobile-nav-logo">
                 <div class="logo">
                     <a href="{{ route('landing') }}">
-                        <img src="{{ asset('assets') }}/images/logo.png" alt="Charlotte" class="logo-img-mobile">
+                        <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" class="logo-img-mobile">
                     </a>
                 </div>
             </div>
@@ -276,8 +277,7 @@
                         <div class="col-lg-6 px-0">
                             <div class="logo" data-aos="fade-down-right">
                                 <a href="{{ route('landing') }}">
-                                    <h1 class="mb-0" style="font-family: 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 3px; font-size: 1.8rem;">Charlotte</h1>
-                                    <span style="font-family: 'Cormorant Garamond', serif; font-size: 0.7rem; letter-spacing: 4px; color: var(--accent-color); display: block;">FINE DINING · PADANG</span>
+                                    <img src="{{ asset('assets') }}/images/logo.svg" alt="Charlotte" style="height: 60px; filter: drop-shadow(0px 2px 10px rgba(201,149,106,0.3));">
                                 </a>
                             </div>
                         </div>

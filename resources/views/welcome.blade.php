@@ -791,8 +791,7 @@
 
     {{-- ============================== SUBSCRIBE / CONTACT CTA ============================== --}}
     <section class="subscribe-us pb-5 mb-5">
-        <img class="d-none d-lg-block" src="{{ asset('assets') }}/images/subscribe-us.png" alt=""
-            data-aos="fade-down-right">
+        
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
